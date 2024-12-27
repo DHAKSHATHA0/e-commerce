@@ -1,0 +1,189 @@
+body {
+    font-family: Alice;
+    margin: 0;
+    padding: 0;
+    background-color:#ffecec;
+    align-items: center;
+    
+  }
+  
+  .product-detail {
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    height: 100%;
+    align-items: flex-start; 
+    gap: 20px;
+  }
+  .product-name {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width:auto;
+  }
+  
+  .product-detail img {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-info {
+    max-width: 400px;
+    flex: 2;
+    padding: 20px;
+    width: 100%;
+    flex-grow: 1;
+  }
+  
+  .product-info h2 {
+    font-size: 30px;
+
+  }
+  
+  .product-info p {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+
+  button {
+    background-color: #f3b8b8;
+    color: rgb(80, 74, 74);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none; /* Removes underline from product names */
+    color: inherit; /* Ensures the link color matches the text color */
+  
+  }
+  
+  button:hover {
+    background-color: #f9dad9;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color:#f9dad9;
+    color: #ef2f7f;
+    text-align: center;
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .add-to-cart {
+    background-color: #f3b8b8;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #f3b8b8;
+  }
+  
+  .buy-now {
+    background-color: #f3b8b8;
+  }
+  
+  .buy-now:hover {
+    background-color: #f3b8b8;
+  }
+  .custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f4a9a8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .custom-alert p {
+    margin: 0 0 20px;
+    font-size: 16px;
+  }
+  
+  .custom-alert button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: white;
+    color: #cf6c96;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-alert button:hover {
+    background-color: #ffe8e8;
+  }
+  .custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f4a9a8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .custom-alert p {
+    margin: 0 0 20px;
+    font-size: 16px;
+  }
+  
+  .custom-alert button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: white;
+    color: #cf6c96;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-alert button:hover {
+    background-color: #ffe8e8;
+  }
+  
+  
+
+button  {
+    background-color: #f3b8b8;
+    color: rgb(80, 74, 74);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  
+}
+button  a{
+  text-decoration: none; /* Removes underline from product names */
+  color: inherit; /* Ensures the link color matches the text color */
+  
+}
+
+button a:hover {
+  background-color: #e95d6b;
+  text-decoration: none;
+}
+  
+  
+  

@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9dad9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-container {
+    width: 100%;
+    max-width: 400px;
+    background: #ef2f7f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    max-width: 40;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow:  0 2px 10px rgba(253, 249, 249, 0.905);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:#ef2f7f;
+  }
+  
+  .signup-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ef2f7f;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #810442;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .signup-form input:focus {
+    border-color: #ffb0d8;
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(255, 167, 231, 0.5);
+  }
+  
+  .signup-button {
+    width: 107%;
+    padding: 10px;
+    background-color:#f9dad9;
+    color:rgb(241, 118, 163);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #ffcece;
+  }
+  
+  .signup-button:focus {
+    outline: none;
+    box-shadow: 0px 0px 4px #ffcece;
+  }
+  .custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(142, 47, 85);
+    color: #fabcd6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .custom-alert p {
+    margin: 0 0 20px;
+    font-size: 16px;
+  }
+  
+  .custom-alert button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: rgb(142, 47, 85);
+    color: #fabcd6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-alert button:hover {
+    background-color: #ffe8e8;
+  }

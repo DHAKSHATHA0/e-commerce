@@ -1,0 +1,213 @@
+
+ html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    overflow: hidden;
+    color: #9d2a5d;
+  }
+  
+
+  .landing-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fadeEffect 3s infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+ 
+  body {
+    font-family:  Alice;
+    margin: 0;
+    padding: 0;
+    background-color: #ffecec;
+    background-image: url("C:/Users/DHAKSHATHA SELVARAJ/OneDrive/Desktop/e-commerce/img1.jpg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background-color:#f9dad9;
+    color: #ef2f7f;
+    font-family:  Alice;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: flex-end;
+    align-items: flex-end;
+    position: relative;
+    height: 80px;
+    text-align: center;
+    font-size: 24px;
+    z-index: 1000;
+    width: flex;
+  }
+  header nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #aa3270;
+    border: 1px solid #d177ad;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #aa3270; 
+    color: #fff;
+  }
+  
+  header .logo {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  header .logo  img {
+    width: auto;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: cover;
+    align-items: left;
+  }
+  header.logo h1{
+    align-items: left;
+    font-size: 24px;
+    margin: 0;
+  }
+  nav a:hover {
+    color: #6f3162;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #6f3162;
+  }
+  header nav ul li a {
+    color: #ef2f7f;
+    text-decoration: none;
+  }
+  footer {
+    background-color: #f9dad9;
+    color: #ef2f7f;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .welcome-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 800px;
+    animation: fadeIn 2s ease;
+  }
+  
+  .welcome-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    animation: bounceIn 1.5s ease-out;
+  }
+  
+  .welcome-text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    animation: slideUp 1.5s ease-in-out;
+  }
+  .product-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 1200px;
+  }
+  
+  .product-item {
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .product-item img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .product-item h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #3b3b3b;
+  }
+  
+  .product-item p {
+    font-size: 16px;
+    color: #611942;
+    margin-bottom: 10px;
+  }
+  
+  .product-item .add-to-cart {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #811f50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .product-item .add-to-cart:hover {
+    background-color: #811f50;
+  }
+  
+  
+  
